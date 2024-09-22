@@ -1,0 +1,15 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  scroll-behavior: smooth;
+  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Akaya Kanadaka', cursive; */
+  position: relative;
+  overflow-x: hidden;
+  background-color: #b88b3942;
+
+}

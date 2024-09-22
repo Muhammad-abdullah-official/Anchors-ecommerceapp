@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Akaya Kanadaka', cursive; */
+    position: relative;
+    overflow-x: hidden;
+    background-color: #b88b3942;
+
+}
+
+
+.morale {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 82.5%;
+    min-height: calc(100vh - 260px);
+    /* height: 100vh; */
+    gap: 10px;
+    /* background-color: #b88b3942; */
+
+}
+
+.morale>div {
+    flex: 1;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.morale p {
+    text-align: center;
+    padding: 0px 30px;
+    letter-spacing: 1px;
+}
+
+.morale .para {
+    color: #ffa600;
+    padding: 20px;
+
+}
+
+.morale img {
+    height: 350px;
+    flex-basis: 50%;
+}
+
+.tag-lines h1 {
+    /* color: #ffa600be; */
+    padding: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.tag-lines {
+    animation: fadein 2s ease-in-out backwards;
+    /* forwards mean stop after run to its original position*/
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+        /*transperency */
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.vectorimage {
+    animation: slidein 4.5s ease-in-out backwards;
+}
+
+@keyframes slidein {
+    from {
+        opacity: 0;
+        transform: translateX(-40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(50px);
+    }
+}

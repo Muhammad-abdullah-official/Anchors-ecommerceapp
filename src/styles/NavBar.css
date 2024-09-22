@@ -1,0 +1,133 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Akaya Kanadaka', cursive; */
+    position: relative;
+    overflow-x: hidden;
+    background-color: #b88b3942;
+
+}
+
+/* top nav bar main nav bar */
+
+.bottomnav {
+    margin: 0px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffa600be;
+    color: white;
+    height: 50px;
+    z-index: 99;
+
+}
+
+.bottomnav h1 i {
+    margin-left: 15px;
+    margin-right: 2px;
+}
+
+.bottomnav h1 {
+    letter-spacing: 1.5px;
+}
+
+.bottomnav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    list-style-type: none;
+    /* background-color:  #ffa600be; */
+    margin: 0px;
+    padding: 12px;
+    letter-spacing: 0.5px;
+    position: relative;
+    /* z-index: 99; */
+}
+
+.bottomnav ul li a {
+    color: white;
+
+}
+
+.bottomnav h1 {
+    color: black;
+}
+
+.bottomnav h1 i {
+    color: white;
+}
+
+.storeicon .cart {
+    padding: 5px 7px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid #ffa600be;
+    color: #ffa600be;
+    margin-right: 20px;
+    font-size: 18px;
+    position: relative;
+
+}
+
+.notification {
+    font-size: 12px;
+    position: absolute;
+    top: -6px;
+    right: -8px;
+    color: white;
+    width: 16px;
+    height: 16px;
+    background-color: rgba(245, 12, 12, 0.651);
+    border-radius: 50%;
+}
+
+.storeicon button:hover {
+
+    color: white;
+    background-color: #e4990f4b;
+}
+
+.storeicon #baricon {
+    font-size: 20px;
+    padding: 6px 8px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid #ffa600be;
+    color: #ffa600be;
+    margin-right: 5px;
+    display: none;
+}
+
+.storeicon #baricon:hover {
+    color: white;
+    background-color: #e4990f4b;
+}
+
+
+.bottomnav ul ul li a {
+    background-color: none;
+    /* color: #ffa600be; */
+    border-bottom: 1px solid white;
+}
+
+.bottomnav ul a {
+    text-decoration: none;
+    font-family: 'Akaya Kanadaka', cursive;
+    cursor: pointer;
+
+    color: white;
+}
+
+.bottomnav ul a:hover {
+    color: black;
+    font-weight: bold;
+}
